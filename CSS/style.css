@@ -1,0 +1,820 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #1b1a1a;
+}
+
+.container{
+    max-width: 1280px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+main{
+    z-index: 2;
+}
+
+/*POPUP*/
+.popup-wrapper{
+    z-index: 2;
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.popup{
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: #ff5656;
+    position: relative;
+    border-radius: 10px;
+}
+
+.popup-close{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    border-radius: 50%;
+    background: #303030;
+}
+
+.popup-close:hover{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    border-radius: 50%;
+    color: black;
+    background: white;
+}
+
+.popup-content{
+    margin-top: 35px;
+}
+
+.popup-content h2{
+    color: black;
+    width: 200px;
+    height: 40px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin: 5% auto;
+}
+
+#comprar2{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+    margin-top: 20px;
+    background-color: #303030;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+#comprar2:hover{
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+/*POPUP 2*/
+.popup-wrapper2{
+    z-index: 2;
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.popup2{
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    margin: 10% auto;
+    padding: 20px;
+    background: #ff5656;
+    position: relative;
+    border-radius: 10px;
+}
+
+.popup-close2{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    border-radius: 50%;
+    background: #303030;
+}
+
+.popup-close2:hover{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    border-radius: 50%;
+    color: black;
+    background: white;
+}
+
+.popup-content2{
+    margin-top: 35px;
+}
+
+.popup-content2 h2{
+    color: black;
+    width: 200px;
+    height: 40px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin: 5% auto;
+}
+
+#comprar3{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+    margin-top: 20px;
+    background-color: #303030;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+#comprar3:hover{
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+
+/*POPUP 3*/
+.popup-wrapper3{
+    z-index: 2;
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.popup3{
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    margin: 10% auto;
+    padding: 20px;
+    background: #ff5656;
+    position: relative;
+    border-radius: 10px;
+}
+
+.popup-close3{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    border-radius: 50%;
+    background: #303030;
+}
+
+.popup-close3:hover{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    border-radius: 50%;
+    color: black;
+    background: white;
+}
+
+.popup-content3{
+    margin-top: 35px;
+}
+
+.popup-content3 h2{
+    color: black;
+    width: 200px;
+    height: 40px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin: 5% auto;
+}
+
+#comprar4{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+    margin-top: 20px;
+    background-color: #303030;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+#comprar4:hover{
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+/*LOGO*/
+#logo{
+    background-color: #121111;
+}
+
+#logo img{
+    display: block;
+    width: 850px;
+    max-width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#logo img:hover{
+    display: block;
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/*AQUI COMECA O MENU*/
+section{
+    width: 100%;
+    height: 100px;
+    background: #121111;
+}
+
+.control-menu nav{
+    text-align: center;
+    color: white;
+}
+
+.control-menu nav a{
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+    border-radius: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #ff5656;
+    transition: 0.1s;
+}
+
+.control-menu nav a:hover{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.control-menu nav li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*AQUI TERMINA*/
+
+/*BANNER SITE*/
+picture img{
+    width: 1280px;
+    max-width: 100%;
+    background: #161515;
+}
+
+/*REGRAS*/
+
+#regras{
+    z-index: -1;
+    height: 800px;
+    background: #121111;
+    position: relative;
+}
+
+.control-regras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#regras p {
+    margin-bottom: 10px;
+}
+
+#regras img{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.control-text{
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#regras h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 50px;
+    background-color: #ff5656;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#regras p{
+    color: white;
+}
+
+/*NIVEL DOS PRODUTOS*/
+h2{
+    font-size: 25px;
+}
+
+.nivel-conta1{
+    background-color: #13c45d;
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 250px;
+    height:69px;
+    margin: 0 auto;
+}
+
+.nivel-conta1 img{
+    width: 30px;
+}
+
+.nivel-conta2{
+    background-color: #319cf4;
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 250px;
+    height:69px;
+    margin: 0 auto;
+}
+
+.nivel-conta2 img{
+    width: 30px;
+}
+
+.nivel-conta3{
+    background-color: #ffc822;
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 250px;
+    height:69px;
+    margin: 0 auto;
+}
+.nivel-conta3 img{
+    width: 30px;
+}
+
+
+/*PRODUTOS*/
+article{
+    background: #161515;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 0;
+}
+
+article h1{
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.control-contas{
+    background: #ff5656;
+    position: absolute;
+    width:300px;
+    height: 60px;
+    border-radius: 10px;
+    left: 46%;
+    transform: translate(-50%,-50%);
+    margin: 50px;
+}
+
+article .control-produtos{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+article img{
+    width: 300px;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+/*BOTAO*/
+#comprar{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+    margin-right: 8px;
+    background-color: #18dd0e;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+#comprar:hover{
+    border: 0px;
+    margin-right: 8px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+#detalhes{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+    margin-right: 8px;
+    background-color: #ff5656;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+#detalhes:hover{
+    border: 0px;
+    margin-right: 8px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+#detalhes2{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+    margin-right: 8px;
+    background-color: #ff5656;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+#detalhes2:hover{
+    border: 0px;
+    margin-right: 8px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+#detalhes3{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 0px;
+    margin-right: 8px;
+    background-color: #ff5656;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+#detalhes3:hover{
+    border: 0px;
+    margin-right: 8px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+.botao{
+    display:block;
+    position: relative;
+    bottom: 50px;
+    left: 28px;
+}
+
+.produto{
+    display: inline-block;
+    width: 300px;
+}
+
+/*FOOTER*/
+#contato{
+    z-index: 0;
+    height:200px;
+    background: #121111;
+    position: relative;
+}
+
+.control-footer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box-h1{
+    width: 220px;
+    height: 50px;
+    background-color: #ff5656;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contato h1{
+    color: white;
+}
+
+.discord{
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid ;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    position: relative;
+    transition: 0.3s;
+}
+
+.discord:hover{
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    position: relative;
+    color: black;
+}
+
+#contato h2{
+    display: inline-block;
+    top: 7px;
+    left: 83px;
+    position: absolute;
+}
+
+#contato svg{
+    display: inline-block;
+    top: 7px;
+    left: 30px;
+    position: absolute;   
+}
+
+/*FOOTER DOIS*/
+
+#direitos{
+    z-index: -1;
+    background-color: #161515;
+    height: 80px;
+    text-align: center;
+}
+
+#direitos h1{
+    padding: 30px;
+    font-size: 15px;
+    color:#565555
+}
+
+/*RESPONSIVEL*/
+@media only screen and (max-width: 1080px) {
+
+    /*REGRAS*/
+    #regras{
+        height: 1300px;
+        background: #121111;
+        position: relative;
+    }
+
+    .control-text{
+        width: 100%;
+        max-width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 73%;
+        transform: translate(-50%,-50%);
+    }
+    
+    #regras img{
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    /*FIM DAS REGRAS*/
+
+    /*PRODUTOS*/
+
+    article{
+        z-index: 0;
+        background: #161515;
+        width: 100%;
+        height: 2000px;
+        position: relative;
+    }
+
+    .control-contas{
+        background: #ff5656;
+        position: absolute;
+        width:300px;
+        height: 60px;
+        border-radius: 10px;
+        left: 40%;
+        transform: translate(-50%,-50%);
+        margin: 50px;
+    }
+
+    article .control-produtos{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        position: absolute;
+        top: 51%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    article img{
+        width: 300px;
+        margin-bottom: 50px;
+        transition: 1s;
+    }
+    
+    /*BOTAO*/
+    #comprar{
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        border: 0px;
+        margin-right: 8px;
+        background-color: #18dd0e;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        transition: 1s;
+    }
+    
+    #comprar:hover{
+        width: 130px;
+        height: 53px;
+        border: 0px;
+        margin-right: 8px;
+        background-color: #18dd0e;
+        cursor: pointer;
+        color: white;
+        font-size: 18px;
+    }
+    
+    #detalhes{
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        border: 0px;
+        margin-right: 8px;
+        background-color: #ff5656;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        transition: 1s;
+    }
+    
+    #detalhes:hover{
+        width: 123px;
+        height: 53px;
+        border: 0px;
+        margin-right: 8px;
+        background-color: white;
+        cursor: pointer;
+        color: black;
+        font-size: 16px;
+    }
+    
+    #detalhes2{
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        border: 0px;
+        margin-right: 8px;
+        background-color: #ff5656;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        transition: 1s;
+    }
+    
+    #detalhes2:hover{
+        width: 123px;
+        height: 53px;
+        border: 0px;
+        margin-right: 8px;
+        background-color: white;
+        cursor: pointer;
+        color: black;
+        font-size: 16px;
+    }
+
+    .botao{
+        display:block;
+        position: relative;
+        bottom: 50px;
+        left: 28px;
+    }
+    
+    .produto{
+        display: inline-block;
+        width: 300px;
+    }
+
+  }
