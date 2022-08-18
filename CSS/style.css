@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+    overflow-y: hidden ;
+}
+
 body{
     background: #121111;
 }
